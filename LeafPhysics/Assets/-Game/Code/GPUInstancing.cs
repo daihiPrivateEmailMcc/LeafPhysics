@@ -22,9 +22,6 @@ public class GPUInstancing : MonoBehaviour
     [SerializeField] private Mesh mesh;
     [SerializeField] private Material material;
     [SerializeField] private Transform head;
-    [SerializeField] Color[] colors;
-
-    Color[][] instanceColors;
     private Vector3[][] velocities;
     private Matrix4x4[][] matrices;
     private VelocityUtil velocityUtil;
